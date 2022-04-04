@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    padding: 20px;
+}
+
+.tema{
+    margin-top: 30px;
+    background-color: red;
+}
+
+nav ul{
+    background-color: rgb(48, 48, 48);
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 150px;
+}
+
+nav li:hover{
+    background-color: brown;
+}
+
+h1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 150px;
+}
+
+img{
+    width: 370px;
+    height: 250px;
+    border-radius: 10%;
+}
+
+.jaime{
+    padding-top: 25px;
+}
+
+.contenido{
+    display: flex;
+    margin: 50px;
+}
+
+.articulos{
+    width: 80%;
+    border-right: 3px solid rgb(48, 48, 48);
+}
+
+.secciones{
+    display: flex;
+    padding: 40px;
+    align-items: center;
+}
+
+.secciones p{
+    padding-right: 40px;
+}
+
+.secciones h2{
+    padding-right: 40px;
+}
+
+.menu-secundario{
+    width: 20%;
+    margin-top: 60px;
+}
+
+.menu-secundario p{
+    display: block;
+    text-align: left;
+    padding-left: 40px;
+}
+
+footer{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    margin-top: 40px;
+}
+
+footer p{
+    text-align: center;
+    padding: 50px;
+}

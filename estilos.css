@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    padding: 20px;
+}
+
+nav ul{
+    background-color: rgb(48, 48, 48);
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 150px;
+}
+
+nav li:hover{
+    background-color: brown;
+}
+
+h1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 150px;
+}
+
+.titulo{
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    color:black
+}
+
+h2{
+    margin: 60px;
+    text-align: center;
+}
+
+.principal{
+    margin: 50px;
+}
+
+.container{
+    margin: 50px;
+    text-align: center;
+}
+
+.politica{
+    margin: 30px;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.presidente{
+    margin: 30px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.crimen{
+    margin: 30px;
+    width: 300px;
+    border-radius: 20px;
+    
+}
+
+footer{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    margin-top: 40px;
+}
+
+footer p{
+    text-align: center;
+    padding: 50px;
+}
+
+h3{
+    margin: 50px;
+    text-align: center;
+}
